@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+  --color-bg-elevated: var(--bg-elevated);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+
+  --color-border-default: var(--border-default);
+  --color-border-subtle: var(--border-subtle);
+
+  --color-sport-nfl: var(--sport-nfl);
+  --color-sport-nba: var(--sport-nba);
+  --color-sport-mlb: var(--sport-mlb);
+  --color-sport-nhl: var(--sport-nhl);
+  --color-sport-soccer: var(--sport-soccer);
+  --color-sport-other: var(--sport-other);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-win: var(--result-win);
+  --color-loss: var(--result-loss);
+  --color-push: var(--result-push);
+  --color-pending: var(--result-pending);
+
+  --color-confidence-low: var(--conf-low);
+  --color-confidence-mid: var(--conf-mid);
+  --color-confidence-high: var(--conf-high);
+}
+
+:root {
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #1a1f2e;
+  --bg-card-hover: #232a3b;
+  --bg-elevated: #2a3142;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --border-default: #2a3142;
+  --border-subtle: #1e2536;
+
+  --sport-nfl: #4ade80;
+  --sport-nba: #f97316;
+  --sport-mlb: #ef4444;
+  --sport-nhl: #38bdf8;
+  --sport-soccer: #a78bfa;
+  --sport-other: #fbbf24;
+
+  --accent: #10b981;
+  --accent-hover: #34d399;
+
+  --result-win: #22c55e;
+  --result-loss: #ef4444;
+  --result-push: #6b7280;
+  --result-pending: #eab308;
+
+  --conf-low: #6b7280;
+  --conf-mid: #eab308;
+  --conf-high: #22c55e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.prose {
+  --tw-prose-body: var(--text-primary);
+  --tw-prose-headings: var(--text-primary);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--text-primary);
+  --tw-prose-counters: var(--text-secondary);
+  --tw-prose-bullets: var(--text-muted);
+  --tw-prose-hr: var(--border-default);
+  --tw-prose-quotes: var(--text-secondary);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-captions: var(--text-muted);
+  --tw-prose-code: var(--accent);
+  --tw-prose-pre-code: var(--text-primary);
+  --tw-prose-pre-bg: var(--bg-secondary);
+  --tw-prose-th-borders: var(--border-default);
+  --tw-prose-td-borders: var(--border-subtle);
+}
+
+.card-glow:hover {
+  box-shadow:
+    0 0 20px rgba(16, 185, 129, 0.1),
+    0 0 40px rgba(16, 185, 129, 0.05);
+}
