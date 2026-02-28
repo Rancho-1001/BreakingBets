@@ -4,30 +4,15 @@ export const SPORTS: Record<
   Sport,
   { label: string; color: string; cssClass: string }
 > = {
-  nfl: {
-    label: "NFL",
-    color: "var(--sport-nfl)",
-    cssClass: "sport-nfl",
-  },
-  nba: {
-    label: "NBA",
-    color: "var(--sport-nba)",
-    cssClass: "sport-nba",
-  },
-  mlb: {
-    label: "MLB",
-    color: "var(--sport-mlb)",
-    cssClass: "sport-mlb",
-  },
-  nhl: {
-    label: "NHL",
-    color: "var(--sport-nhl)",
-    cssClass: "sport-nhl",
-  },
   soccer: {
     label: "Soccer",
     color: "var(--sport-soccer)",
     cssClass: "sport-soccer",
+  },
+  tennis: {
+    label: "Tennis",
+    color: "var(--sport-tennis)",
+    cssClass: "sport-tennis",
   },
   other: {
     label: "Other",
@@ -46,7 +31,7 @@ export const CONFIDENCE_LABELS: Record<number, string> = {
 
 export const SITE_NAME = "BreakingBets";
 export const SITE_DESCRIPTION =
-  "Daily and weekly sports betting picks, odds, and analysis across NFL, NBA, MLB, NHL, and Soccer.";
+  "Daily and weekly sports betting picks, odds, and analysis for Soccer and Tennis.";
 
 export const NAV_LINKS = [
   { href: "/", label: "Home", highlight: false },
@@ -59,7 +44,7 @@ export const NAV_LINKS = [
 export const HERO = {
   tagline: "Your Edge in Sports Betting",
   subtitle:
-    "Expert picks, data-driven analysis, and proven results across NFL, NBA, MLB, NHL, and Soccer.",
+    "Expert picks, data-driven analysis, and proven results across Soccer and Tennis.",
   ctaPrimary: { label: "View Today's Picks", href: "/daily/" },
   ctaSecondary: { label: "Go VIP", href: "/vip/" },
 };
@@ -68,7 +53,7 @@ export const STATS = [
   { label: "Picks Made", value: 1200, suffix: "+" },
   { label: "Win Rate", value: 64, suffix: "%" },
   { label: "Subscribers", value: 3500, suffix: "+" },
-  { label: "Leagues Covered", value: 12, suffix: "" },
+  { label: "Leagues Covered", value: 15, suffix: "" },
 ];
 
 export const SOCIAL_LINKS = [
@@ -78,18 +63,23 @@ export const SOCIAL_LINKS = [
 ];
 
 export const LEAGUES = [
-  { name: "NFL", abbr: "NFL", emoji: "\u{1F3C8}" },
-  { name: "NBA", abbr: "NBA", emoji: "\u{1F3C0}" },
-  { name: "MLB", abbr: "MLB", emoji: "\u26BE" },
-  { name: "NHL", abbr: "NHL", emoji: "\u{1F3D2}" },
+  // Soccer
   { name: "Premier League", abbr: "EPL", emoji: "\u26BD" },
   { name: "La Liga", abbr: "LIGA", emoji: "\u26BD" },
   { name: "Serie A", abbr: "SERIE A", emoji: "\u26BD" },
   { name: "Bundesliga", abbr: "BUN", emoji: "\u26BD" },
   { name: "Ligue 1", abbr: "L1", emoji: "\u26BD" },
   { name: "Champions League", abbr: "UCL", emoji: "\u{1F3C6}" },
+  { name: "Europa League", abbr: "UEL", emoji: "\u{1F3C6}" },
   { name: "MLS", abbr: "MLS", emoji: "\u26BD" },
-  { name: "UFC", abbr: "UFC", emoji: "\u{1F94A}" },
+  { name: "Liga MX", abbr: "LMX", emoji: "\u26BD" },
+  // Tennis
+  { name: "ATP Tour", abbr: "ATP", emoji: "\u{1F3BE}" },
+  { name: "WTA Tour", abbr: "WTA", emoji: "\u{1F3BE}" },
+  { name: "Australian Open", abbr: "AO", emoji: "\u{1F3BE}" },
+  { name: "French Open", abbr: "RG", emoji: "\u{1F3BE}" },
+  { name: "Wimbledon", abbr: "WIM", emoji: "\u{1F3BE}" },
+  { name: "US Open", abbr: "USO", emoji: "\u{1F3BE}" },
 ];
 
 export const VIP_TIERS = [

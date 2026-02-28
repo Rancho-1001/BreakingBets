@@ -27,8 +27,8 @@ export default function AboutPage() {
             <span className="font-semibold text-[var(--accent)]">
               {SITE_NAME}
             </span>{" "}
-            — your source for daily and weekly sports betting picks across the
-            major leagues.
+            — your source for daily and weekly sports betting picks for Soccer
+            and Tennis worldwide.
           </p>
 
           <div className="rounded-xl border border-[var(--border-default)] bg-[var(--bg-card)] p-6">
@@ -37,24 +37,12 @@ export default function AboutPage() {
             </h2>
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
-                <span className="text-[var(--sport-nfl)]">&#9679;</span>
-                <span>NFL — Spreads, totals, moneylines, and props</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[var(--sport-nba)]">&#9679;</span>
-                <span>NBA — Game picks, player props, and totals</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[var(--sport-mlb)]">&#9679;</span>
-                <span>MLB — Moneylines, run lines, and totals</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[var(--sport-nhl)]">&#9679;</span>
-                <span>NHL — Puck lines, moneylines, and totals</span>
-              </li>
-              <li className="flex items-center gap-2">
                 <span className="text-[var(--sport-soccer)]">&#9679;</span>
-                <span>Soccer — Match results, goals, and specials</span>
+                <span>Soccer — Match results, goals, BTTS, Asian handicaps, and specials across EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL, Europa League, MLS, and Liga MX</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[var(--sport-tennis)]">&#9679;</span>
+                <span>Tennis — Match winners, set betting, game handicaps, and over/under totals across ATP, WTA, and all four Grand Slams</span>
               </li>
             </ul>
           </div>

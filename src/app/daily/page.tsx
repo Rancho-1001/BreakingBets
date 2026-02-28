@@ -5,7 +5,7 @@ import { getAllDailyPicks } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Daily Picks",
-  description: "Daily sports betting picks and selections across NFL, NBA, MLB, NHL, and Soccer.",
+  description: "Daily sports betting picks and selections for Soccer and Tennis.",
 };
 
 export default function DailyPicksPage() {

@@ -7,11 +7,8 @@ interface SportIconProps {
 }
 
 const sportEmojis: Record<Sport, string> = {
-  nfl: "\u{1F3C8}",
-  nba: "\u{1F3C0}",
-  mlb: "\u26BE",
-  nhl: "\u{1F3D2}",
   soccer: "\u26BD",
+  tennis: "\u{1F3BE}",
   other: "\u{1F3AF}",
 };
 

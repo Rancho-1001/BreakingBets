@@ -18,11 +18,8 @@
   --color-border-default: var(--border-default);
   --color-border-subtle: var(--border-subtle);
 
-  --color-sport-nfl: var(--sport-nfl);
-  --color-sport-nba: var(--sport-nba);
-  --color-sport-mlb: var(--sport-mlb);
-  --color-sport-nhl: var(--sport-nhl);
   --color-sport-soccer: var(--sport-soccer);
+  --color-sport-tennis: var(--sport-tennis);
   --color-sport-other: var(--sport-other);
 
   --color-accent: var(--accent);
@@ -51,11 +48,8 @@
   --border-default: #2a3142;
   --border-subtle: #1e2536;
 
-  --sport-nfl: #4ade80;
-  --sport-nba: #f97316;
-  --sport-mlb: #ef4444;
-  --sport-nhl: #38bdf8;
   --sport-soccer: #a78bfa;
+  --sport-tennis: #84cc16;
   --sport-other: #fbbf24;
 
   --accent: #009578;

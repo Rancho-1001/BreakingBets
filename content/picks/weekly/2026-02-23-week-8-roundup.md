@@ -1,24 +1,30 @@
 ---
-title: "Week 8 Roundup - NFL & NBA Recap"
+title: "Week 8 Roundup - Soccer & Tennis Recap"
 date: "2026-02-23"
 type: "weekly"
-sports: ["nfl", "nba"]
-record: "8-4"
-excerpt: "A strong week headlined by our NFL parlay hitting and a perfect 3-0 NBA Saturday."
+sports: ["soccer", "tennis"]
+record: "7-3"
+excerpt: "A strong 7-3 week led by perfect EPL picks and a clean sweep in WTA selections."
 ---
 
-## Week 8 Recap
+## Week 8 Overview
 
-What a week! We went **8-4** overall, pushing our monthly record to **32-18**. The highlights:
+Another profitable week with a 7-3 record across Soccer and Tennis. Our EPL picks went 3-0 and WTA selections were flawless.
 
-### NFL (4-2)
+## Soccer Highlights
 
-The NFL playoffs continue to be our bread and butter. Our Chiefs spread pick hit comfortably, and the under in the NFC game cashed with room to spare. The two losses came on a bad beat in the late-window game and a divisional round upset.
+- **EPL: 3-0** — Arsenal over 2.5 goals ✅, Liverpool BTTS ✅, Man City -1.5 ✅
+- **La Liga: 1-1** — Barcelona ML ✅, Atletico Madrid under 2.5 ❌
+- **UCL: 1-1** — PSG BTTS ✅, Inter Milan clean sheet ❌
 
-### NBA (4-2)
+The Premier League continues to be our strongest league for picks. Our model's xG analysis has been particularly sharp for the top 6 sides.
 
-Saturday was the standout — we went a perfect **3-0** on our NBA card. The Lakers over hit with ease, and both our spread picks covered by double digits. The two losses came midweek on a pair of close games that could have gone either way.
+## Tennis Highlights
 
-### Looking Ahead
+- **WTA Qatar Open: 2-1** — Swiatek ML ✅, Sabalenka -3.5 games ✅, Pegula ML ❌
 
-Week 9 brings a loaded NFL conference championship slate and a packed NBA schedule. We'll have daily picks posted every morning by 10 AM ET. Stay locked in.
+Excellent week on the WTA side. Our surface analysis correctly identified Swiatek's hard court dominance.
+
+## Looking Ahead
+
+Big week coming up with Champions League Round of 16 action and the ATP Dubai Open reaching the knockout rounds. El Clasico headlines the soccer card.

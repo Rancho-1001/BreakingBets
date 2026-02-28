@@ -1,28 +1,30 @@
 ---
-title: "Week 7 Roundup - Multi-Sport Recap"
+title: "Week 7 Roundup - Soccer & Tennis Recap"
 date: "2026-02-16"
 type: "weekly"
-sports: ["nfl", "nba", "nhl"]
-record: "6-5"
-excerpt: "A .545 week with strong NHL play offsetting a rough NBA stretch."
+sports: ["soccer", "tennis"]
+record: "6-4"
+excerpt: "A 6-4 week with Serie A and ATP picks carrying us to another winning record."
 ---
 
-## Week 7 Recap
+## Week 7 Overview
 
-A break-even-ish week at **6-5**, but the bankroll stays healthy. Let's break it down.
+Solid 6-4 week to keep the overall record trending positive. Serie A and ATP Tour picks were the highlights this time around.
 
-### NFL (2-1)
+## Soccer Highlights
 
-Divisional round action gave us two solid wins on spread plays. The lone loss was a total that went over by half a point — brutal, but that's the game.
+- **EPL: 1-2** — Tottenham ML ✅, Newcastle BTTS ❌, Brighton under 2.5 ❌
+- **Serie A: 3-0** — Napoli -1 ✅, Juventus under 2.5 ✅, AC Milan BTTS ✅
+- **Bundesliga: 1-1** — Bayern over 3.5 ✅, Dortmund ML ❌
 
-### NBA (1-3)
+Serie A was our bread and butter this week. Italian football's tactical nature makes it prime territory for under/over analysis, and our models nailed the defensive matchups.
 
-Rough stretch for our NBA picks this week. Injuries derailed two of our plays, and a late collapse cost us the third. The lone win was our high-confidence Celtics pick.
+## Tennis Highlights
 
-### NHL (3-1)
+- **ATP: 1-1** — Sinner ML ✅, Medvedev -4.5 games ❌
 
-The ice was kind to us this week. Three moneyline plays cashed, including a nice +140 underdog hit on the Oilers. Our only loss was a total play that missed by one goal.
+Mixed bag on the ATP side. Sinner continues to be a reliable pick on hard courts, while Medvedev's inconsistency burned the games spread.
 
-### Looking Ahead
+## Looking Ahead
 
-We bounce back. Week 8 has a great slate and we're locked in on several high-confidence plays already.
+WTA Qatar Open kicks off next week alongside a loaded EPL and La Liga fixture list. UCL Round of 16 first legs are on the horizon.

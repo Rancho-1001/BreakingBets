@@ -1,4 +1,4 @@
-export type Sport = "nfl" | "nba" | "mlb" | "nhl" | "soccer" | "other";
+export type Sport = "soccer" | "tennis" | "other";
 export type PostType = "daily" | "weekly";
 export type PickResult = "win" | "loss" | "push" | null;
 export type ConfidenceLevel = 1 | 2 | 3 | 4 | 5;
