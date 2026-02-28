@@ -12,7 +12,7 @@ export default function WeeklyPage() {
   const posts = getAllWeeklyPosts();
 
   return (
-    <Container>
+    <Container className="py-8">
       <h1 className="mb-2 text-2xl font-bold text-[var(--text-primary)] sm:text-3xl">
         Weekly Roundup
       </h1>

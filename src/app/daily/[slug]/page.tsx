@@ -41,7 +41,7 @@ export default async function DailyPickPage({
   const htmlContent = await markdownToHtml(post.content);
 
   return (
-    <Container>
+    <Container className="py-8">
       <PickDetail
         post={post as Post<PickFrontmatter>}
         htmlContent={htmlContent}

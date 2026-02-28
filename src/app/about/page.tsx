@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Container from "@/components/ui/Container";
 import { SITE_NAME } from "@/lib/constants";
 
@@ -9,17 +10,25 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <Container>
+    <Container className="py-8">
       <article className="mx-auto max-w-3xl">
-        <h1 className="mb-6 text-2xl font-bold text-[var(--text-primary)] sm:text-3xl">
-          About {SITE_NAME}
-        </h1>
+        <div className="mb-8">
+          <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-[var(--accent)]">
+            About Us
+          </p>
+          <h1 className="text-2xl font-extrabold text-[var(--text-primary)] sm:text-3xl">
+            About {SITE_NAME}
+          </h1>
+        </div>
 
         <div className="space-y-6 text-[var(--text-secondary)]">
           <p className="text-lg leading-relaxed">
-            Welcome to <span className="font-semibold text-[var(--accent)]">{SITE_NAME}</span> — your
-            source for daily and weekly sports betting picks across the major
-            leagues.
+            Welcome to{" "}
+            <span className="font-semibold text-[var(--accent)]">
+              {SITE_NAME}
+            </span>{" "}
+            — your source for daily and weekly sports betting picks across the
+            major leagues.
           </p>
 
           <div className="rounded-xl border border-[var(--border-default)] bg-[var(--bg-card)] p-6">
@@ -55,10 +64,10 @@ export default function AboutPage() {
               Our Approach
             </h2>
             <p className="text-sm leading-relaxed">
-              Every pick comes with a confidence rating and detailed analysis.
-              We focus on value — finding lines where the odds don&apos;t
-              reflect the true probability of an outcome. No fluff, no filler,
-              just straight-up analysis backed by data and matchup research.
+              Every pick comes with a confidence rating and detailed analysis. We
+              focus on value — finding lines where the odds don&apos;t reflect
+              the true probability of an outcome. No fluff, no filler, just
+              straight-up analysis backed by data and matchup research.
             </p>
           </div>
 
@@ -69,9 +78,25 @@ export default function AboutPage() {
             <p className="text-sm leading-relaxed text-[var(--text-muted)]">
               All content on this site is for entertainment and informational
               purposes only. Sports betting involves risk and you should never
-              bet more than you can afford to lose. Past results do not
-              guarantee future performance. Please gamble responsibly.
+              bet more than you can afford to lose. Past results do not guarantee
+              future performance. Please gamble responsibly.
             </p>
+          </div>
+
+          {/* VIP CTA */}
+          <div className="rounded-xl border border-[var(--accent)]/30 bg-[var(--bg-card)] p-6 text-center">
+            <h2 className="mb-2 text-lg font-semibold text-[var(--text-primary)]">
+              Want Premium Picks?
+            </h2>
+            <p className="mb-4 text-sm text-[var(--text-secondary)]">
+              Join our VIP membership for exclusive analysis and early access.
+            </p>
+            <Link
+              href="/vip/"
+              className="inline-block rounded-lg bg-[var(--accent)] px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-hover)]"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </article>

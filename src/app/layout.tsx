@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import WelcomeModal from "@/components/ui/WelcomeModal";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,8 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} flex min-h-screen flex-col`}>
         <Header />
-        <main className="flex-1 py-8">{children}</main>
+        <main className="flex-1">{children}</main>
         <Footer />
+        <WelcomeModal />
       </body>
     </html>
   );

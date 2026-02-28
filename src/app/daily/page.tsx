@@ -12,7 +12,7 @@ export default function DailyPicksPage() {
   const picks = getAllDailyPicks();
 
   return (
-    <Container>
+    <Container className="py-8">
       <h1 className="mb-2 text-2xl font-bold text-[var(--text-primary)] sm:text-3xl">
         Daily Picks
       </h1>

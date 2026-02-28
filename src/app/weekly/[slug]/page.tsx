@@ -44,7 +44,7 @@ export default async function WeeklyPostPage({
   const htmlContent = await markdownToHtml(post.content);
 
   return (
-    <Container>
+    <Container className="py-8">
       <article className="mx-auto max-w-3xl">
         <Link
           href="/weekly/"

@@ -58,8 +58,8 @@
   --sport-soccer: #a78bfa;
   --sport-other: #fbbf24;
 
-  --accent: #10b981;
-  --accent-hover: #34d399;
+  --accent: #009578;
+  --accent-hover: #00b894;
 
   --result-win: #22c55e;
   --result-loss: #ef4444;
@@ -80,6 +80,7 @@ body {
   color: var(--text-primary);
 }
 
+/* Prose overrides for dark theme */
 .prose {
   --tw-prose-body: var(--text-primary);
   --tw-prose-headings: var(--text-primary);
@@ -98,8 +99,85 @@ body {
   --tw-prose-td-borders: var(--border-subtle);
 }
 
+/* Card hover glow */
 .card-glow:hover {
   box-shadow:
-    0 0 20px rgba(16, 185, 129, 0.1),
-    0 0 40px rgba(16, 185, 129, 0.05);
+    0 0 20px rgba(0, 149, 120, 0.1),
+    0 0 40px rgba(0, 149, 120, 0.05);
+}
+
+/* Hero gradient background */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--bg-primary) 0%,
+    color-mix(in srgb, var(--accent) 15%, var(--bg-primary)) 50%,
+    var(--bg-primary) 100%
+  );
+}
+
+/* Picks table styles */
+.picks-table th {
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.picks-table tr {
+  border-bottom: 1px solid var(--border-subtle);
+  transition: background-color 0.15s ease;
+}
+
+.picks-table tr:hover {
+  background-color: var(--bg-card-hover);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s ease-out forwards;
 }
